@@ -9,5 +9,7 @@ router.post("/", isAuthenticated, productController.createProduct);
 router.post("/buy", isAuthenticated, productController.createOrder);
 router.get("/", isAuthenticated, productController.getProducts);
 
+//duong dan cau 8
+router.get("/:id", isAuthenticated, productController.getProductId);
 
 module.exports = router;

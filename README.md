@@ -7,53 +7,53 @@ Setup all microservices
 Test all business logic with POSTMAN
 
 -REGISTER
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](public/register.png)
+![alt text](public/login.png)
+![alt text](public/dashboard.png)
 
 TRUONG HOP DA DANG KY TEN DO : {"message":"Username already taken"}
-![alt text](image-3.png)
+![alt text](public/register_already.png)
 
 -LOGIN
-![alt text](image-1.png)
+![alt text](public/login.png)
 
 -NHAP SAI USERNAME OR PASSWORD
-![alt text](image-4.png)
+![alt text](public/login_invalid.png)
 
 CREATE PRODUCT
-![alt text](image-5.png)
+![alt text](public/postproducts.png)
 
 -ERROR CREATE PRODUCT
-
-![alt text](image-6.png)
+![alt text](public/postproductserror.png)
 
 -GET DANH SACH PRODUCT
+![alt text](public/getproducts.png)
 
-![alt text](image-7.png)
 
 -Order
-![alt text](image-8.png)
-
--
+![alt text](public/order_buy.png)
 
 -SHOW MONGODB docker exec -it mymongodb mongosh
-![alt text](image-9.png)
+![alt text](public/mogodb.png)
 
 -USER
-![alt text](image-10.png)
+![alt text](public/mongodb_auth.png)
 
 -PRODUCT
-![alt text](image-11.png)
+![alt text](public/mongodb_product.png)
 
 -ORDER
-![alt text](image-12.png)
+![alt text](public/order_product.png)
+
+-GET Product_ID
+![alt text](public/getproductid.png)
 
 -docker ps
-![alt text](image-13.png)
+![alt text](public/docker_ps.png)
 
 -docker-compose up --build
-![alt text](image-14.png)
+![alt text](public/buil.png)
 
 -docker
-![alt text](image-15.png)
-![alt text](image-16.png)
+![alt text](public/dk.png)
+![alt text](public/docker.png)

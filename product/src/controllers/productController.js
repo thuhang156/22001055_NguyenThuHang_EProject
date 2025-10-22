@@ -86,6 +86,16 @@ class ProductController {
   }
   
 
+  // code lai cau 8
+  async getProductId(req, res, next) {
+    const { id } = req.params;
+    const product = await Product.findById(id);
+    if (!product) {
+      return res.status(404).json({messager: 'Product not found'});
+    }
+    return res.status(200).json(product);
+  }
+
   async getOrderStatus(req, res, next) {
     const { orderId } = req.params;
     const order = this.ordersMap.get(orderId);
